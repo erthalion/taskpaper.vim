@@ -1,8 +1,7 @@
 " Vim syntax file
-" Language:	Taskpaper (http://hogbaysoftware.com/projects/taskpaper)
-" Maintainer:	David O'Callaghan <david.ocallaghan@cs.tcd.ie>
-" URL:		https://github.com/davidoc/taskpaper.vim
-" Last Change:  2012-03-07
+" Maintainer:	erthalion <9erthalion6@gmail.com>
+" URL:		https://github.com/erthalion/taskpaper.vim
+" Last Change:  2012-12-13
 
 if version < 600
   syntax clear

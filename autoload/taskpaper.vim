@@ -1,7 +1,6 @@
 " plugin to handle the TaskPaper to-do list format
-" Language:     Taskpaper (http://hogbaysoftware.com/projects/taskpaper)
 " Maintainer:   David O'Callaghan <david.ocallaghan@cs.tcd.ie>
-" URL:          https://github.com/davidoc/taskpaper.vim
+" URL:          https://github.com/erthalion/taskpaper.vim
 " Last Change:  2012-03-07
 
 let s:save_cpo = &cpo
@@ -9,6 +8,12 @@ set cpo&vim
 
 function! s:add_delete_tag(tag, value, add)
     let cur_line = getline(".")
+
+    if a:tag == "done"
+       let cur_line = substitute(cur_line, '☐', '✔', 'g')
+    elseif a:tag == "cancelled"
+       let cur_line = substitute(cur_line, '☐', '✕', 'g')
+    endif
 
     let tag = " @" . a:tag
     if a:value != ''

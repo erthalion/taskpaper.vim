@@ -1,13 +1,12 @@
-taskpaper.txt   For Vim version 6.0     Last change: 2012 March 13
-
 David O'Callaghan <david.ocallaghan@cs.tcd.ie>
+erthalion <9erthalion6@gmail.com>
 
-13th March 2012
+13th December 2012
 
 Introduction
 =============
 
-*Latest version from https://github.com/davidoc/taskpaper.vim*
+This is fork of project TaskPaper. Goal of this modification is increas usefulness for me and style like https://github.com/aziz/PlainTasks
 
 From the TaskPaper website (<http://hogbaysoftware.com/projects/taskpaper>):
 
